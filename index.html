@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Kitchen Monitor Updates</title> 
+<style> 
+body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; } 
+.version-info { background: #f0f0f0; padding: 20px; border-radius: 8px; margin: 20px 0; } 
+</style> 
+</head> 
+<body> 
+<h1>Kitchen Monitor Update Server</h1> 
+<div class="version-info"> 
+<h2>Aktuelle Version</h2> 
+<p id="version">Lädt...</p> 
+<a id="download" href="#">Download</a> 
+</div> 
+<script> 
+fetch('./latest.json').then(r => r.json()).then(data => { 
+document.getElementById('version').textContent = data.version; 
+document.getElementById('download').href = data.downloadUrl; 
+}); 
+</script> 
+</body> 
+</html> 
