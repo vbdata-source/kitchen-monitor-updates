@@ -1,7 +1,7 @@
 {
   "version": "0.9.2",
-  "releaseDate": "2025-01-20",
-  "changelog": "- Verbesserte Update-Benachrichtigungen\n- Release-Automatisierung hinzugefügt\n- Bug-Fixes und Performance-Optimierungen",
+  "releaseDate": "2025-08-02",
+  "changelog": "- Verbesserte Update-Cache-Verwaltung\n- Cache-Zeit von 6h auf 30 Min reduziert\n- Doppelklick auf Update-Icon für Force-Check\n- Einstellbare Cache-Zeit (5-360 Minuten)\n- Cache-Busting verhindert Browser-Cache-Probleme",
   "downloadUrl": "https://github.com/vbdata-source/kitchen-monitor/releases/download/0.9.2/kitchen-monitor-win-v0.9.2.zip",
   "minimumVersion": "0.8.0",
   "mandatory": false
