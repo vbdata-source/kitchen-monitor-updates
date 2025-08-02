@@ -1,8 +1,8 @@
-{ 
-  "version": "1.1.0", 
-  "releaseDate": "2025-01-20", 
-  "changelog": "- Update-System mit GitHub Pages implementiert\n- Update-Benachrichtigungen im Header\n- Automatische Version-Prüfung beim Start\n- Download-Dialog für neue Versionen", 
-  "downloadUrl": "https://github.com/vbdata-source/kitchen-monitor/releases/download/v1.1.0/kitchen-monitor-win-v1.1.0.zip", 
-  "minimumVersion": "0.9.0", 
-  "mandatory": false 
-} 
+{
+  "version": "1.2.0",
+  "releaseDate": "2025-01-20",
+  "changelog": "- Verbesserte Update-Benachrichtigungen\n- Release-Automatisierung hinzugefügt\n- Bug-Fixes und Performance-Optimierungen",
+  "downloadUrl": "https://github.com/vbdata-source/kitchen-monitor/releases/download/v1.2.0/kitchen-monitor-win-v1.2.0.zip",
+  "minimumVersion": "0.9.0",
+  "mandatory": false
+}
