@@ -1,8 +1,8 @@
 {
-  "version": "0.9.12",
+  "version": "0.9.13",
   "releaseDate": "2025-08-03",
-  "changelog": "Version 0.9.12",
-  "downloadUrl": "https://github.com/vbdata-source/kitchen-monitor/releases/download/0.9.12/kitchen-monitor-win-v0.9.12.zip",
+  "changelog": "Version 0.9.13",
+  "downloadUrl": "https://github.com/vbdata-source/kitchen-monitor/releases/download/0.9.13/kitchen-monitor-win-v0.9.13.zip",
   "minimumVersion": "0.9.0",
   "mandatory": false
 }
